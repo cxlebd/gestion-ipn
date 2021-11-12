@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 
 
 // Middlewares
-
+app.use(express.urlencoded({ extended: true }));
 
 // Rutas
 app.use(require('./routes/'));

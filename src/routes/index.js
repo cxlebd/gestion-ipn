@@ -19,4 +19,13 @@ router.get('/registro', (req, res) => {
     
 });
 
+// Admin
+router.get('/admin', (req, res) => {
+    res.render('admin.html', {title: 'Administrador'});
+});
+
+router.get('/contacto', (req, res) => {
+    res.render('contacto.html', {title: 'Contactanos'});
+});
+
 module.exports = router;
