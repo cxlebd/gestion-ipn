@@ -40,7 +40,7 @@ body {
     color: #fff;    
 }
 
-.opciones {
+.navbar .opciones {
     margin-left: 1em;
 }
 
@@ -50,7 +50,7 @@ body {
     
     display: grid;
     grid-template-columns: 4fr 6fr;
-
+    gap: 1em;
 }
 
 footer {
